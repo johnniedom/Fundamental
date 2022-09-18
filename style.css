@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0; */
+}
+
+body{
+    font-family: sans-serif;
+    background: linear-gradient(to left, #ce0b0b80, rgba(94, 21, 212, 0.5) );    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+}
+main{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    background: linear-gradient(to right, #ce0b0b80, rgba(94, 21, 212, 0.1) );
+    color: white;
+    font: 800 2.5rem italic;
+    letter-spacing: 1rem;
+    border: 5px solid rgba(0, 0, 0, 0.7);
+    padding: 2.2rem;
+    /* border-radius: 50%; */
+}
